@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  height:600px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image {
+  flex: 1;
+  height:100%;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  
+  height: 100%;
+  object-fit: cover;
+}
+
+.details {
+  flex: 1;
+  padding: 30px;
+}
+
+.details h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.details p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-bottom: -10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  padding:20px;
+  margin-left:140px;
+
+}
+form input, form select {
+  width: 200;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+ margin-left:160px;
+}
+
+/* Style radio buttons */
+form div {
+  display: flex;
+  align-items: center;
+}
+form input {
+  width: 100%;
+  padding: 18px;
+  box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: -40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form input[type="radio"] {
+  margin-right: 2px;
+}
+
+form label.gender-label {
+  margin-right: 35px;
+}
+button {
+  background-color:green;
+ 
+  color: #fff;
+ margin-right:220px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ margin-top: 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 26px; /* Increase font size */
+  
+}
+center{
+  margin-right: -310px;
+}
+button:hover {
+  background-color:lightgreen;
+}
+p{
+  margin-left: 190px;
+}
